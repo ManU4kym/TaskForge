@@ -12,3 +12,4 @@ Route::get('/tasks/{task}', [TaskController::class, 'show']);
 
 
 Route::get('/home',function () {return view('layout');});
+

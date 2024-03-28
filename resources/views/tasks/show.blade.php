@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <pre>{{$task->body}}</pre>
-</body>
-</html>
+@include('layouts.botsrap')
+@include('layouts.header')
+@vite('resources/css/index.css')
+<link href="{{ asset('resources/css/index.css') }}">
+
+
+
+
+
+<div class="containerkim">
+    <div class="items">{{$task->body}}</div>
+    <div class="items">{{$task->body}}</div>
+    <div class="items">{{$task->body}}</div>
+    <div class="items">{{$task->body}}</div>
+    <div class="items">{{$task->body}}</div>
+    <div class="items">{{$task->body}}</div>
+</div>
+
+
+<div class="items2">{{$task->body}}</div>
+@include('layouts.footer')
