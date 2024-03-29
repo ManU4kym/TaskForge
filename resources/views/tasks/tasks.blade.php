@@ -1,12 +1,13 @@
-    @include('layouts.botsrap')
-    @include('layouts.header')
-    
-    @foreach($tasks as $task)
+@extends('layout')
+   
+@section('content')
+@foreach($tasks as $task)
 
-    <pre style="margin:20px 83px;color:rgb(31, 29, 29); font-size:34px;">{{$task->body}}</pre>
+<pre style="margin:20px 83px;color:rgb(31, 29, 29); font-size:34px;">{{$task->body}}</pre>
 
-    @endforeach
-    
+@endforeach
+
+@endsection
    
 
 
