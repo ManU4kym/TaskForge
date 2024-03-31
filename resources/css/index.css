@@ -1,9 +1,13 @@
 * {
-    transition: 5s linear;
+    transition: 1s linear;
+    scroll-behavior: smooth;
+    
 }
 body {
     background-image: linear-gradient(rgb(133, 110, 110), rgb(167, 167, 230), rgb(40, 47, 24));
     background-attachment: fixed;
+    box-sizing: border-box;
+    
 }
 .containerkim {
     display: grid;
@@ -53,4 +57,75 @@ body {
     background-size: cover;
     transform: rotateX(-45deg);
     background-image: url('https://images.unsplash.com/photo-1682687220198-88e9bdea9931?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D');
+}
+.header {
+    display: flex;
+    background-color: transparent;
+    box-shadow: 3px 5px 12px white;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+}
+.navbar {
+    gap: 4.8rem;
+    list-style: none;
+    
+}
+.nav-items {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contents {
+    color: rgb(19, 19, 16);
+    margin-top: 6rem;
+    
+}
+.contents h1 {
+    letter-spacing: 1.5;
+    padding-left: 12px;
+    font-family: cursive;
+    color: rgb(71, 68, 68);
+}
+.taskli  {
+    padding-left: 3rem;
+    list-style: none;
+    margin-top:3rem ;
+    
+}
+.tasklist {
+    
+    margin: 12px;
+}
+
+.foter {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    gap: 15.2rem;
+    background-color: hsl(45, 4%, 22%);
+    z-index: 1;
+    
+    
+    
+}
+.thumbs {
+    margin-bottom: 23px;
+    padding-bottom: 34px;
+}
+.thumbs div {
+    z-index: -1;
+    
+    margin-bottom: 17px;
+    padding-bottom: 16px;
+}
+.tol {
+  margin: 10px;
+  
+  
 }
