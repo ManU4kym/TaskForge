@@ -12,5 +12,8 @@ Route::get('/tasks/{task}', [TaskController::class, 'show']);
 
 
 Route::get('/home',function () {return view('layout');});
+ /* create route */
+
+ Route::get('/create',[TaskController::class,'create']);
 
 
