@@ -16,4 +16,6 @@ Route::get('/home',function () {return view('layout');});
 
  Route::get('/create',[TaskController::class,'create']);
 
+ Route::post('/tasks', [TaskController::class, 'store']);
+
 
