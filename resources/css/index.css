@@ -15,7 +15,6 @@ body {
     padding: 12px;
     gap: 1.4em;
     grid-template-columns: auto auto auto;
-    border: 1px solid black;
     border-radius: 25px;
     grid-auto-flow: column dense;
     width: 45%;
@@ -23,18 +22,12 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+   margin-top : 8rem;
 }
 .items {
-    border: 2px solid rgb(71, 50, 50);
     text-align: center;
     
     
-}
-.containerkim:hover {
-    grid-auto-flow: row;
-    
-    background-image: url('https://images.unsplash.com/photo-1682687220198-88e9bdea9931?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D');
-    transform: rotateZ(-55deg);
 }
 .items:hover {
     translate: rotateY('-45deg');
@@ -146,8 +139,13 @@ body {
         box-sizing: border-box;
         border: 2px solid #ccc;
         border-radius: 4px;
-        background-color: #f8f8f8;
+        background-color: #282727;
         font-size: 16px;
         resize: none;
+        color: white;
       
+}
+.form-control {
+    background-color: #282727;
+    color: white;
 }

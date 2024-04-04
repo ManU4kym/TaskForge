@@ -15,7 +15,4 @@
     <div class="items">{{$task->body}}</div>
     <div class="items">{{$task->body}}</div>
 </div>
-
-
-<div class="items2">{{$task->body}}</div>
 @include('layouts.footer')

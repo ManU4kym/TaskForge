@@ -4,7 +4,7 @@
 <link href="{{ asset('resources/css/index.css') }}">
 
 <section class="create">
-    <h1>Create a Post</h1>
+    <h1>Publish a Post</h1>
     <hr>
     <form>
         <div class="form-group" style="margin-bottom:22px ">

@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\DB;
 use App\Models\Task;
 
 /* tasks.blade route  */
-Route::get('/', [TaskController::class, 'all']);
+Route::get('/', [TaskController::class, 'index']);
 /* show.blade route */
 Route::get('/tasks/{task}', [TaskController::class, 'show']);
 
