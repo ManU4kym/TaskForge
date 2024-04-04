@@ -14,7 +14,7 @@
         </div>
         
         <div class="form-group">
-            <textarea name="text" id="body" cols="30" rows="10"></textarea>
+            <textarea name="body" id="body" cols="30" rows="10"></textarea>
             </div>
             <br>
         <button type="submit" class="btn btn-primary">Publish</button>
